@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <h1>Ticorporate Portfolio</h1>
+      <nav>
+        <ul>
+          <li><a>Eelis Pekkarinen</a></li>
+          <li><a>ad1770</a></li>
+          <li><a>ad1770@student.jamk.fi</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section id="about">
+      <h2>Mitä osasin alussa ja mitä tc:n jälkeen</h2>
+      <p>-Kun kurssi alkoi halusin oppia lisää mobiili sovelluksien kehityksestä ja saada kokonaiskuva miten mobiili
+        sovelluksia tehdään ja minkälaisia työkaluja on olemassa.</p>
+      <p>-Ticorporaten aikana opin todella paljon minkälaisia työkaluja on ja sain hyvän kuvan myös expon ja
+        reactnativen
+        käyttämisestä. Tutuksi tuli myös firebase vaikke en sitä kovin paljoa käyttänyt.
+        Koen myös että minun tiedon haku ja uuden oppiminen kehittyi todella paljon koska sitä tuli tehtyä todella
+        paljon opin myös android studion käyttöä vaikka se onkin aika raskas läppärillä käyttää</p>
+    </section>
+
+
+    <section id="projects">
+      <h2></h2>
+      <div class="project">
+        <h3>Ohjelmointi</h3>
+        <p>Ticorporatessa minun pääroolini oli ohjelmoija eli tuotin koodia sovellukseen.
+
+        </p>
+        <p>-Ticorporaten alussa suuri osa ajasta meni siihen että ryhmäläisten kanssa koitettiin löytää oikea
+          sovelluskehitysalusta joka vastaisi meidän tarpeisiin.
+
+        </p>
+        <p>-Ensimmäisenä ehdotin ryhmälle että tehdäänkö pwa sovellus angularilla mutta todettiin että se ei ole
+          meille oikea vaihtoehto. Seuraavaksi alettiin käyttämään svelte nativea.
+          Svelte nativella kun alettiin tekemään aika nopeasti huomattiin että se on todella deprekoitunut ja että se ei
+          oikeastaan toimi.
+          Sen jälkee kuin päätettiin että etsitään vielä uusi framework jota käytetään. Aloin googlaamaan ja
+          etsimään uusia työkaluja ja vastaan tuli react native jota sitten lähdettiin testaamaan
+          ja todettiin että se toimii oikein hyvin ja siihen vielä löytyi todella paljon ohjeita ja muutenkin
+          informaatiota mitä esim sveltestä ei löytynyt
+          ja näin jälkeen päin koen että react native on todella hyvä alusta ja tykkäsin sen käytösta. Mutta olisi
+          pitänyt jättää se expo pois välistä se auttoi alussa mutta loppu vaiheessa se tuotti todella paljon ongelmia
+        </p>
+        <h3>Navigaatio</h3>
+        <p>Sovelluksen alussa tein meille navigaation reactin stack navigaattorilla joka vaikutti todella hyvältä ja
+          sitä se olikin</p>
+        <img src="./img/1.JPG" width="600">
+        <p>Kuvassa näkyy osa meidän stack navigaattoria jossa oli todella kätevä ominaisuus jolla pystyi tehdä headerin
+          joka menee sovelluksen joka näkymään ja sen sai myös helposti piilotetua</p>
+
+
+        <h3>Tarot sivu</h3>
+        <p>käytin myös paljon aikaa miedän tarot sivuun jossa luetaan päivän tarot kortti </p>
+        <img src="./img/2.JPG" width="600">
+        <p>Tässä kuvassa on osa miedän tarot sivua ja kuvassa näkyy osa koodia jossa käyttetään asyncstoragea jonne
+          tallenetaan aiemmin arvottu tarot korrti ja vertaillaan aiempaa tallennusta joka varmistaa että näät
+          yhdenkortin päivässä etkä aina saa uutta kortia kun aikaiset näkymän</p>
+
+        <h3>Sivun ulkoasu</h3>
+        <p>Sovelluksessa oli isossa roolissa ulkoasu meillä oli todella taitavat visuaaliset suunnitelijat ja muutenkin
+          sovelluksen ulkoasu oli todella hieno</p>
+
+        <img src="./img/3.JPG" width="600">
+        <p>Tässä kuvassa näkee osan meidän sovelluksen tyylitiedosta Juurikin menu näkymän tyylitiedosta josta oli suht
+          vaikea saada suunnitellun näköinen mutta ehkä pointtina tässä on se että käytin paljon aikaa sovelluksen
+          ulkoasuun ja että se olisi suunnitelmia vastaava. ja muutenkin mukava käyttää. suunnitelin myös sitä että
+          miten käyttäjän näkökulmasta on helppo soellusta käyttää ja että rakaisu ei ole sellainen joa vaikea toteuttaa
+          koodaamalla</p>
+      </div>
+
+      <h3>Yhteen veto</h3>
+      <p>Ohjelmoinnin osalta minulla oli mobiilisovellus kehityksestä hämärä kuva mutta ticorporaten aikana sain todella
+        hyvän kuvan miten mobiilisovelluksia tehdään opin käyttämään hyvin ractnativea ja koen että osaisin tehdä
+        reacnativella jatkossain sovelluksia vaikka ne olisikin vähän monimutkaisempia</p>
+
+    </section>
+    <section id="projects">
+      <h2></h2>
+      <div class="project">
+        <h3>Markkinointi</h3>
+        <p>Markkinoinnissa ehkä isoin asia minulle oli tietosuoja tehtävä jonka tärkeyden ymmärsin heti alussa mutta
+          kuitenkin tehtävää tehdessä ymmärsin sen vielä paremmin miten tärkeä se on. Esimerkiksi meillä oli tiedostaja
+          näkyvillä julkisessa githubissa mitä ei ehkä kannataisi olla näkyvillä ne ovat kuvassa alapuolella</p>
+        <img src="./img/m1.JPG" width="300">
+        <p>tietosuoja tehtävässä myös selvitin paljon sitä mitä uhkia reactnativessa ja expossa on mutta totesin että ne
+          ei ole ehkä meidän sovellukseen kovin aiheellisia koska emme käsittele oikeastaan mitään tärkeää tietoa </p>
+
+        <p>suunnitelin sirun kanssa myös meidän somepostauksia ja harjoittelin meidän sovelluksesta hissi puhetta joka
+          ainakin omasta mielestä meni kurssin lopussa ja todella hyvin ja alhaalla olevassa kuvassa on yksi meidän some
+          postauksista</p>
+        <img src="./img/m3.JPG" width="400">
+        <p>Teimme myös Business model canvasin ja value proposition canvasin </p>
+      </div>
+
+    </section>
+    <section id="projects">
+      <h2></h2>
+      <div class="project">
+        <h3>scrum master</h3>
+        <p>Scrummauksesta minulla oli aika huono käsitys kurssin alussa mutta nyt kurssin jälkeen koen että minulla on
+          todella selkeä käsitys siitä miten se toimii meidän ryhmässä scrummaus meni omasta mielestä hyvin ja myös
+          palautteen mukaan mitä sain ryhmäläisiltäni. Emme ehkä olleet parhaita noudattamaan scrum käytänteitä eli emme
+          pitäneet joka päivä esim scrum meettingiä menimme ehkä vähän rennommalla mutta meidän ryhmälle paremmin
+          toimivalla tavalla.
+        </p>
+        <img src="./img/s1.JPG" width="600">
+        <p>Kuvassa on yksi meidän sprintin retrospectiven ja reviwn tulos</p>
+        <p>Mutta omalta osaltani totesin scrum masterina sen että se ei ole ehkä minulle paras rooli mutta kuitenkin
+          koien että srum masterina oleminen oli minulle todella opettava ja hyvä koekmus. Opin siis hyvin srum
+          käytänteet ja sen miksi sitä tehdään mutta koen että olen vaan ehkä liian rento ja hetkessä elävä että en usko
+          että työelämässä tulen olemaan scrum master </p>
+        <p>omasta mielestäni minun olisi pitänyt esim pitää paremmin huolta ja olla tarkempi backlogien kanssa </p>
+      </div>
+
+    </section>
+    <section id="projects">
+      <h2></h2>
+      <div class="project">
+        <h3>Testaus</h3>
+        <p>Testaus oli ehkä inhottavin asia mitä tein tämän kurssin aikana koska en saanut mitään testaus alustaa
+          toimimaan sovellukseemme. Yritin ainakin viikon työtunnit tehdä testausta ja koelin Detoxia Meastroa ja
+          appiumia ja kaikkien kanssa oli joka ongelma jota en itse ainakaan osannut ratkaista ja uskon että ne eivät
+          vaan toimineet expon tai reactnativen kanssa. mutta varmasti joku minua pätevämpi olisi saanut jonkun
+          vastaavan toimimaan ja luultavasti minäkin mutta siinä vaiheessa kun olin viikon tehnyt töitä turhaan totesin
+          että se testaus ei voi olla enään prioriteetti kun sovelluksessa oli paljon tärkeää vielä tekemättä ja aika
+          alkoi käydä vähiin joten laitoin sen stopille.
+        </p>
+        <p>Mutta ei testaus ollut kuitenkaan ihan ensikseen pääsin kyllä testaamaan omia hermoja ja yllätyin miten hyvin
+          ne kesti vaikka meni niin mönkään ja opin myös sen että joskus pitää osata lopettaa ajoissa ja priorisoida
+          asioita tärkeys järjestyksessä ja että aina ei vaan voi onnistua vaikka parhaansa koittaisi</p>
+      </div>
+
+    </section>
+    <section id="projects">
+      <h2></h2>
+      <div class="project">
+        <h3>opittu/epäonnistumiset</h3>
+        <p>-Tc aikana suurimmat oppini ovat olleet ryhmätyöskentely, reactnative/expo, markkinoinnin perusteet ja
+          tietosuoja, ja scrum käytänteet</p>
+        <p>- oivalluksia mitä olen oivaltanut aina ei voi onnistua, alussa suunnitelua ei voi tehdä liikaa</p>
+        <p>-Tavoitteistani toteutui se että ymärrän/osaan mobbilisovellusten tekemisen hyvin ja kyllä ihan normi
+          reactiakin tuli opittua koska suurin osa komponenteista on ihan react komponentteja. opin myös paremmin
+          toimimaan ryhmässä joka oli minulle tärkeää koska koen että joskus minulla on ongelmia siinä vaikka tykkäänkin
+          paljon ryhmätöistä</p>
+        <p>-ehkä ainut tavoitteistani mitä en päässyt toteuttamaan oli se testaus jota olisin mieluusti tehnyt ja
+          tahtonut tehdä sen hyvin mutta niinkuin aiemmin mainitsin en onnistunut vaikka kurssin alussa tahdoin tehdä
+          hyvän ja toimivan testausalustan sovellukseen jota olisi voinut helposti pyörittää</p>
+        <p>Mitä opin suunnitelman ulkopuolelta oli android studion käyttä en ehkä kutsuisi itseäni ammatilasenki mutta
+          tiedän mitä sillä voi tehdä ja osaan perus jutut tehdä android studiolla</p>
+        <h3>Tulevaisuus/vahvuudet</h3>
+        <p>Tulevaisuudessa tahtoisin osata web/mobiili sovellus kehityksen hyvin ja koen että kurssi ehkä auttoi minua
+          ymmärtämään kaikki koulussa oppimani asiat yhtenä könttänä kun ennen ne on ollit palasia jotka ei ole päässäni
+          niin hyvin liittynyt toisiinsa. Työn puolelta haluasin olla pätevä tuottamaan koodia ja minua kiinnostaa myös
+          it-alalla todella paljon myynti asiat ja sitä ehkä haluasin mieluiten tehdä mutta ennen sitä haluan ymmärtää
+          hyvin sen mitä aion myydä. Minun siis pitää oppia vielä enemmän fullstavk sovellus kehityksestä ja haluan
+          oppia arviomaan sitä miten paljon aikaa menee asioden valmiiksi saamiseen</p>
+        <p>Vahvuuksia minulla on varmaan uuden oppiminen ja tiedon haku tämä tulee ehkä siitä kun tc aikana tehtiin
+          paljon asiota mitä en ollut ikinä tehnyt mutta koin että ymmärsin asiat aika nopeasti ja osasin räätälöidä
+          monista vaihtoehdoiesta parhaan suht nopeasti</p>
+        <p>Valitsin kyseiset asiat portfoliooni koska koen että niistä saa parhaan kuvan siitä mitä tein kurssin aikana
+        </p>
+      </div>
+
+
+    </section>
+
+  </main>
+  <footer>
+    <p></p>
+  </footer>
+</body>
+
+</html>
